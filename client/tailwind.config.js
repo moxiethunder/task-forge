@@ -5,11 +5,16 @@ export default {
   ],
   theme: {
     fontFamily: {
-      mono: ["Space Mono", "monospace"]
+      mono: ["JetBrains Mono", "monospace"]
     },
     extend: {
       colors: {
-        "accent-1": "#333"
+        "brand-gray-900": "#16131D",
+        "brand-gray-800": "#21222B",
+        "brand-gray-700": "#2A2933",
+        "brand-gray-600": "#302F38",
+        "brand-gray-500": "#40424E",
+        "brand-gray-200": "#A2A2B0",
       }
     },
   },
